@@ -27,13 +27,11 @@ As a submodule of your project
         'data.key2': 'value2'
     };
     
-    gcm.send(message, 
-    	5, // maximum number of retry attempts
-    	function(result){
-        if (result.err) {
+    gcm.send(message, function(err, messageId){
+        if (err) {
             console.log("Something has gone wrong!");
         } else {
-            console.log("Sent with message ID: ", result.messageId);
+            console.log("Sent with message ID: ", messageId);
         }
     });
 
