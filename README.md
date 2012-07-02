@@ -18,7 +18,7 @@ As a submodule of your project
     var GCM = require('gcm').GCM;
 
     var apiKey = '';
-    var gcm = new gcm(apiKey);
+    var gcm = new GCM(apiKey);
 
     var message = {
         registration_id: 'Device registration id', // required
