@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/h2soft/node-gcm.png)](http://travis-ci.org/h2soft/node-gcm)
 node-gcm
 ========
 An interface for "Google Cloud Messaging for Android" on Node.js
