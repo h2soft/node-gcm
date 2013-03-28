@@ -1,10 +1,11 @@
 {
   "name": "gcm",
   "description": "An interface to Google Cloud Messaging for Android (GCM) on Node.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Changshin Lee <cslee@h2soft.kr>",
   "contributors": [ 
-    { "name": "Changshin Lee", "email": "cslee@h2soft.kr" }
+    { "name": "Changshin Lee", "email": "cslee@h2soft.kr" },
+    { "name": "Hannes Gassert", "url": "http://gassert.ch" }
   ],
   "keywords": ["google", "push", "push notifications", "android", "gcm"],
   "main": "./lib/gcm.js",

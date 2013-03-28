@@ -61,6 +61,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
+1.0.1:
+
+  - Merge pull request from https://github.com/h2soft/node-gcm/commit/3e38578985812931e361c78165d62fda30a30064 (thanks to @hannesgassert)
+
+
 1.0.0:
 
   - Initial release
