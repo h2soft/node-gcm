@@ -23,8 +23,10 @@ As a submodule of your project
     var message = {
         registration_id: 'Device registration id', // required
         collapse_key: 'Collapse key', 
-        'data.key1': 'value1',
-        'data.key2': 'value2'
+        data: {
+            key1: 'value1',
+            key2: 'value2'
+        }
     };
     
     gcm.send(message, function(err, messageId){
